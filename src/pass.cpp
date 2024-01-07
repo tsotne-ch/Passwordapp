@@ -81,6 +81,20 @@ void checkpass()
 			score++;
 		}
 	}
+
+
+	if(score < 5 && pass.size() > 12)
+	{
+		score++;
+	}
+	else if(pass.size() > 15 && score = 2)
+	{
+		score = 4;
+	}
+	else if(pass.size() > 15 && score = 3 )
+	{
+		score = 5;
+	}
 	
 	switch(score)
 	{
